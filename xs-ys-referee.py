@@ -17,7 +17,7 @@ all(len(row) == 3 for row in game_result)
 '''
 
 #attempt
-
+'''
 from typing import List
 
 def checkio(game: List[str]) -> str:
@@ -44,10 +44,10 @@ if __name__ == '__main__':
                    "XOO"]))
 
     #These "asserts" using only for self-checking and not necessary for auto-testing
-    assert checkio([
+    print (checkio([
         "X.O",
         "XX.",
-        "XOO"]) == "X", "Os wins"
+        "XOO"]) == "X", "Os wins")
     assert checkio([
         ".XX",
         "OXO",
@@ -60,3 +60,6 @@ if __name__ == '__main__':
         "O.X",
         "XX.",
         "XOO"]) == "X", "Xs wins again"
+'''
+
+print(i in range(5))
